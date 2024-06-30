@@ -27,8 +27,8 @@ require("lazy").setup({
   checker = {
     -- Automatically check for plugin updates
     enabled = true,
-    -- Check at most daily.
-    frequency = 60 * 60 * 24,
+    -- Check for updates at most weekly.
+    frequency = 60 * 60 * 24 * 7,
   },
   performance = {
     rtp = {
