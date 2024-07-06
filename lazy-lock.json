@@ -24,6 +24,7 @@
   "mini.files": { "branch": "main", "commit": "acfc4e46f6722a0690ce640632c5b5515ddade70" },
   "mini.icons": { "branch": "main", "commit": "ab07603554123295917962c059b0d633c4f24824" },
   "mini.pairs": { "branch": "main", "commit": "927d19cbdd0e752ab1c7eed87072e71d2cd6ff51" },
+  "modus-themes.nvim": { "branch": "master", "commit": "181dc38ddbcf9ad94d454cb06b13c859d4ff28d1" },
   "noice.nvim": { "branch": "main", "commit": "7bbd5b4eda99a2738011c1a11775f1c77f19e5f5" },
   "nui.nvim": { "branch": "main", "commit": "61574ce6e60c815b0a0c4b5655b8486ba58089a1" },
   "nvim-cmp": { "branch": "main", "commit": "a110e12d0b58eefcf5b771f533fc2cf3050680ac" },
