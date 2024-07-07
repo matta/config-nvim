@@ -42,4 +42,8 @@ return {
 
   -- Dashboards, meh.
   { "nvimdev/dashboard-nvim", enabled = false },
+
+  -- This plugin is an "Improved Yank and Put functionalities for Neovim."
+  -- ...but let's be minimalists.
+  { "gbprod/yanky.nvim", enabled = false },
 }
