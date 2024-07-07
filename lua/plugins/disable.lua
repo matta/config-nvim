@@ -39,4 +39,7 @@ return {
   --
   -- It confuses me. Perhaps I should try harder.
   { "folke/trouble.nvim", enabled = false },
+
+  -- Dashboards, meh.
+  { "nvimdev/dashboard-nvim", enabled = false },
 }
