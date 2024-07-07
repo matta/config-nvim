@@ -54,4 +54,9 @@ return {
   -- "Tiny plugin to enhance Neovim's native comments
   -- (mostly useful for tsx files)"
   { "folke/ts-comments.nvim", enabled = false },
+
+  -- "Neovim plugin to improve the default vim.ui interfaces"
+  --
+  -- I'm not sure what, if anything, this is doing.
+  { "stevearc/dressing.nvim", enabled = false },
 }
