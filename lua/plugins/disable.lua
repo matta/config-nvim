@@ -46,4 +46,12 @@ return {
   -- This plugin is an "Improved Yank and Put functionalities for Neovim."
   -- ...but let's be minimalists.
   { "gbprod/yanky.nvim", enabled = false },
+
+  -- "Navigate your code with search labels, enhanced character motions
+  -- and Treesitter integration"
+  { "folke/flash.nvim", enabled = false },
+
+  -- "Tiny plugin to enhance Neovim's native comments
+  -- (mostly useful for tsx files)"
+  { "folke/ts-comments.nvim", enabled = false },
 }
