@@ -17,4 +17,9 @@ return {
   -- browsing within NeoVim, and the shell for most things that require
   -- heavy lifting, instead.
   { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+
+  -- This plugin is "A fancy, configurable, notification manager for NeoVim".
+  -- By default notifications show up unobtrusively at the bottom of the
+  -- screen, and that is all I need.
+  { "rcarriga/nvim-notify", enabled = false },
 }
