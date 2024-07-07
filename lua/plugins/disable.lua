@@ -10,6 +10,9 @@ return {
   -- GUI software. I find them distracting and not particularly useful.
   { "akinsho/bufferline.nvim", enabled = false },
 
+  -- Who needs fancy status lines?
+  { "nvim-lualine/lualine.nvim", enabled = false },
+
   -- This plugin is responsible for the vertical lines at each indentation
   -- tab stop. It also provides some key bindings for navigation based
   -- on indentation. I don't miss the lines when they are gone, and
