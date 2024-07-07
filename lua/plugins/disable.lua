@@ -22,4 +22,10 @@ return {
   -- By default notifications show up unobtrusively at the bottom of the
   -- screen, and that is all I need.
   { "rcarriga/nvim-notify", enabled = false },
+
+  -- This plugin is "Highly experimental plugin that completely replaces the
+  -- UI for messages, cmdline and the popupmenu."
+  -- It confuses me greatly.  I don't want it.
+  { "folke/noice.nvim", enabled = false },
+
 }
