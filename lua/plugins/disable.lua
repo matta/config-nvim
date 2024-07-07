@@ -62,4 +62,11 @@ return {
   --
   -- I'm not sure what, if anything, this is doing.
   { "stevearc/dressing.nvim", enabled = false },
+
+  -- Search and replace in multiple files.
+  -- I'll never use this.
+  { "nvim-pack/nvim-spectre", enabled = false },
+
+  -- This appears to be unecessary?
+  { "MunifTanjim/nui.nvim", enabled = false },
 }
