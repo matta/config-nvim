@@ -1,4 +1,9 @@
 -- Plugins that ship with LazyVim that I want disabled.
+
+-- Disabling folke/trouble.nvim requires this.
+-- See https://github.com/LazyVim/LazyVim/issues/3944
+vim.g.trouble_lualine = false
+
 return {
   -- This plugin shows one "tab" per buffer at the top of the screen.
   -- These tabs aren't nvim tabs, but tabs in the sense used by most
@@ -28,4 +33,10 @@ return {
   -- It confuses me greatly.  I don't want it.
   { "folke/noice.nvim", enabled = false },
 
+  -- This plugin is "A pretty diagnostics, references, telescope results,
+  -- quickfix and location list to help you solve all the trouble your code
+  -- is causing."
+  --
+  -- It confuses me. Perhaps I should try harder.
+  { "folke/trouble.nvim", enabled = false },
 }
